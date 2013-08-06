@@ -16,6 +16,10 @@
 		57F929B91731DF28007003F5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 57F929B81731DF28007003F5 /* Default.png */; };
 		57F929BB1731DF28007003F5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57F929BA1731DF28007003F5 /* Default@2x.png */; };
 		57F929BD1731DF28007003F5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57F929BC1731DF28007003F5 /* Default-568h@2x.png */; };
+		57F929C61731DF44007003F5 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F929C41731DF44007003F5 /* MyViewController.m */; };
+		57F929C71731DF44007003F5 /* MyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57F929C51731DF44007003F5 /* MyViewController.xib */; };
+		57F929CB1731E32E007003F5 /* STJEDISE.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 57F929CA1731E32E007003F5 /* STJEDISE.TTF */; };
+		57F929CE1731E8F9007003F5 /* StarJediSpecialEdition.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F929CD1731E8F9007003F5 /* StarJediSpecialEdition.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +36,12 @@
 		57F929B81731DF28007003F5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		57F929BA1731DF28007003F5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		57F929BC1731DF28007003F5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		57F929C31731DF44007003F5 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		57F929C41731DF44007003F5 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		57F929C51731DF44007003F5 /* MyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyViewController.xib; sourceTree = "<group>"; };
+		57F929CA1731E32E007003F5 /* STJEDISE.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = STJEDISE.TTF; sourceTree = "<group>"; };
+		57F929CC1731E8F9007003F5 /* StarJediSpecialEdition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarJediSpecialEdition.h; sourceTree = "<group>"; };
+		57F929CD1731E8F9007003F5 /* StarJediSpecialEdition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StarJediSpecialEdition.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +90,12 @@
 			children = (
 				57F929B51731DF28007003F5 /* AppDelegate.h */,
 				57F929B61731DF28007003F5 /* AppDelegate.m */,
+				57F929C31731DF44007003F5 /* MyViewController.h */,
+				57F929C41731DF44007003F5 /* MyViewController.m */,
+				57F929C51731DF44007003F5 /* MyViewController.xib */,
+				57F929CC1731E8F9007003F5 /* StarJediSpecialEdition.h */,
+				57F929CD1731E8F9007003F5 /* StarJediSpecialEdition.m */,
+				57F929CA1731E32E007003F5 /* STJEDISE.TTF */,
 				57F929AD1731DF28007003F5 /* Supporting Files */,
 			);
 			path = CustomFontStuff;
@@ -154,6 +170,8 @@
 				57F929B91731DF28007003F5 /* Default.png in Resources */,
 				57F929BB1731DF28007003F5 /* Default@2x.png in Resources */,
 				57F929BD1731DF28007003F5 /* Default-568h@2x.png in Resources */,
+				57F929C71731DF44007003F5 /* MyViewController.xib in Resources */,
+				57F929CB1731E32E007003F5 /* STJEDISE.TTF in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +184,8 @@
 			files = (
 				57F929B31731DF28007003F5 /* main.m in Sources */,
 				57F929B71731DF28007003F5 /* AppDelegate.m in Sources */,
+				57F929C61731DF44007003F5 /* MyViewController.m in Sources */,
+				57F929CE1731E8F9007003F5 /* StarJediSpecialEdition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
